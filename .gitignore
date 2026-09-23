@@ -1,0 +1,13 @@
+# 工作目录：第三方依赖与中间产物，不纳入版本控制
+# 需要时用 _work\setup_libs.py 与 _work\build_pdf.py 重新生成
+_work/
+
+# 系统与编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+
+# Python 缓存
+__pycache__/
+*.pyc
