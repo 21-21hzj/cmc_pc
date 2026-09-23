@@ -1,0 +1,10 @@
+# 保持源文件原样的 LF 行尾，避免 Windows 上被自动转成 CRLF 导致 diff 全变
+* text=auto eol=lf
+
+# 二进制文件不做行尾转换
+*.pdf binary
+*.png binary
+*.jpg binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
